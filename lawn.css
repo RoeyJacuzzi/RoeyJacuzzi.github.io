@@ -1,0 +1,153 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    color: #FFFFFF;
+}
+
+nav {
+    background-color: #67aa29;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    float: left;
+	width: 130px;
+	height: 94em;
+	padding: 10px;
+	padding-right: 20em;
+	position: relative;
+	top: 300px;
+	background-image: linear-gradient(to top, #9dff00, #90c397);
+	
+}
+nav a {
+    text-decoration: none;
+	position: fixed;
+	transition: color 2s linear;
+}
+
+main {
+	padding: 10px;
+	margin-left: 360px;
+	padding-left: 10px;
+}
+
+p {
+	font-size: 2em;
+}
+
+#wrapper {
+    width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #90e397;
+	min-width: 960px;
+	max-width: 2048px;
+	background-image: linear-gradient(to bottom, #9dff00, #90c397);
+}
+
+h1 {
+	font-size: 3em;
+	margin: 1px;
+	padding: 9px;
+	margin-top: 20px;
+	padding-right: 3em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+ul {
+	font-size: 1.5em;
+}
+
+nav a:link {
+	color: #07857a;
+}
+nav a:visited {
+	color: #05173f;
+}
+nav a:hover {
+	color: #A52A2A;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 1em;
+	padding-left: 1em;
+	font-size: 2em;
+}
+
+#homehero {
+	height: 300px;
+	background-image: url(bike.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding-left: 10em;
+}
+
+#container-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer {
+	text-align: center;
+}
+
+hr {
+    border-width: 2px;
+    border-style: solid;
+    color: #FFFFFF;
+}
+
+table {
+	border: 2px solid #05173f;
+	border-collapse: collapse;
+	color: #000000;
+	font-weight: bold;
+}
+
+td {
+	padding: 0.5em;
+	border: 2px solid #05173f;
+	text-align: center;
+}
+
+th {
+	padding: 0.5em;
+	border: 2px solid #05173f;
+}
+
+.servheight {
+	height: 26.5em;
+}
+
+.conheight {
+	height: 36.2em;
+}
+
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 200px;
+	padding-right: 5px;
+}
+
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	margin-left: 200px;
+}
